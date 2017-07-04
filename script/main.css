@@ -1,0 +1,509 @@
+/** MAIN COLUMNS/BASES **/
+
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: neuton, sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#container{
+    margin: auto;
+    width: 1024px;
+}
+
+.col{
+    width: 944px;
+}
+
+.col-1{
+    width: 157px;
+}
+
+.col-2{
+    width: 314px;
+
+}
+
+.col-3{
+    width: 471px;
+}
+
+.col-4{
+    width: 628px;
+
+}
+
+.col-5{
+    width: 785px;
+}
+
+/** START HEADER SECTION **/
+
+#mainPageHeader{
+    margin: auto;
+    margin-top: 130px;
+}
+
+#roseForside{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+#tittel{
+    position: absolute;
+    top: 340px;
+    left: 450px;
+    font-size: 9em;
+    color: #7F7F7F;
+    text-align: center;
+}
+
+#datoTall{
+    position: absolute;
+    left: -150px;
+}
+
+
+#illustrasjonAv{
+    position: relative;
+    font-style: italic;
+    font-size: 0.8em;
+    left: 78%;
+}
+
+/** MAIN CONTENT **/
+
+#mainContent{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/** FØRSTE SECTION: HELDIGETXT **/
+
+#tryggeP{
+    position: relative;
+    margin-top: 200px;
+    font-size: 3em;
+}
+
+#ikkeReddeP{
+    margin-top: 80px;
+    float: right;
+    font-size: 2.1em;
+}
+
+/** ANDRE SECTION: FEMAAR **/
+
+#femAar{
+    margin-top: 150px;
+}
+
+#femAar h1{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8em;
+}
+
+#femAarTxtEn{
+    font-size: 12.5em;
+    color: #7F7F7F;
+    position: relative;
+    
+}
+
+#femAarTxtTo{
+    font-size: 12.5em;
+    color: #7F7F7F;
+    position: relative;
+    opacity: 0;
+    float: right;
+    
+}
+
+#snartFemAarTxt{
+    position: relative;
+    font-size: 1.9em;
+    margin-top: 70px;
+    float: right;
+}
+
+
+/** TREDJE SECTION: BREIVIK **/
+
+#breivikSec{
+    position: relative;
+    margin-top: 200px;
+}
+
+#breivikTxt{
+    font-size: 2.5em;
+}
+
+#voksneBarnTxt{
+    margin-top: 50px;
+    position: relative;
+    font-size: 1.8em;
+    float: right;
+}
+
+/** FJERDE SECTION: FEMTENTYVE **/
+
+#femtenTyvefemSec{
+    height: auto;
+    margin-top: 170px;
+
+}
+
+#femtenTyvefemH1{
+    position: relative;
+    margin: 0;
+    font-size: 12em;
+    color: #7F7F7F;
+    float: left;
+    height: auto;
+}
+
+#femtenTyvefemP{
+    position: relative;
+    margin-top: 55px;
+    font-size: 2.2em;
+    float: left;
+    height: auto;
+}
+
+
+/** FEMTE SECTION: REGJERINGSKVARTALET **/
+
+#regjeringskvartaletSec{
+    margin-top: 200px;
+}
+
+#regjeringskvartaletImg{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 265%;
+    left: 130px;
+}
+
+#regjeringskvartaletP{
+    position: absolute;
+    font-style: italic;
+    top: 3470px;
+    font-size: 0.9em;
+}
+
+/** SJETTE SECTION: DA BOMBEN SMALT **/
+
+#daBombenSmaltSec{
+    margin-top: 180px;
+    font-size: 2.1em;
+}
+
+/** SYVENDE SECTION: REDDE OG FORVIRREDE MENNESKER **/
+
+#reddeForvirretSec{
+    margin-top: 180px;
+}
+
+#reddeForvirretImg{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#reddeForvirretP{
+    position: absolute;
+    font-style: italic;
+    font-size: 0.9em;
+    top: 4550px;
+    left: 800px;
+}
+
+/** ÅTTENDE SECTION: SYTTEN ATTEN **/
+
+#syttenAttenSec{
+    margin-top: 100px;
+    float: left;
+}
+
+#syttenAttenP{
+    position: relative;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 2.2em;
+    float: left;
+    height: auto;
+
+}
+
+#syttenAttenH1{
+    position: relative;
+    margin: 0;
+    font-size: 12em;
+    color: #7F7F7F;
+    float: left;
+    height: auto;
+
+}
+
+/** NIENDE SECTION: SAMLET PÅ LEIR **/
+
+#samletPaaLeirP{
+    margin-top: 140px;
+    font-size: 1.6em;
+}
+
+/** TIENDE SECTION: UTØYA **/
+
+#utoyaSec{
+    margin-top: 140px;
+}
+
+#utoyaP{
+    font-size: 0.8em;
+    font-style: italic;
+    position: absolute;
+    float: left;
+    top: 5620px;
+}
+
+#utoyaImg{
+    position: relative;
+    float: right;
+    width: 80%;
+}
+
+
+/** ELLEVTE SECTION: BEGYNTE Å SKYTE **/
+
+#begynteAaSkyteSec{
+    margin-top: 170px;
+}
+
+#begynteAaSkyteP{
+    font-size: 2.3em;
+}
+
+/** TOLVTE SECTION: PRØVDE Å RØMME **/
+
+#provdeAaRommeSec{
+    margin-top: 150px;
+}
+
+#provdeAaRommeP{
+    font-size: 1.5em;
+}
+
+/** TRETTENDE SECTION: RONJA **/
+
+#ronjaSec{
+    margin-top: 150px;
+}
+
+#epleEnImg{
+    position: absolute;
+    width: 20%;
+}
+
+#epleToImg{
+    position: absolute;
+    width: 20%;
+}
+
+#bananImg{
+    position: absolute;
+    width: 20%;
+}
+
+#ronjaImg{
+    position: absolute;
+    margin-top: 240px;
+    width: 20%;
+    float: left;
+    -webkit-transform: rotate(-20deg);
+}
+
+#ronjaP{
+    font-size: 3.7em;
+    float: right;
+    z-index: 1000;
+}
+
+/** FJORTENDE SECTION: BLE ARRESTRERT **/
+
+#arrestertSec{
+    margin-top: 500px;
+    float: left;
+}
+
+#arrestertP{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 2.5em;
+    float: left;
+    height: auto;
+}
+
+#attenTrettifireH1{
+    position: relative;
+    margin: 0;
+    font-size: 12em;
+    color: #7F7F7F;
+    float: left;
+    height: auto;
+}
+
+/** FEMTENDE SECTION: HÅNDJERN **/
+
+#haandjernSec{
+    margin-top: 140px;
+}
+
+#haandjernImg{
+    position: relative;
+    float: right;
+    width: 80%;
+    -webkit-transform: rotate(50deg);
+}
+
+#sitterIFengselP{
+    margin-top: 450px;
+    position: absolute;
+    font-size: 2.4em;
+}
+
+/** SEKSTENDE SECTION: TA VARE PÅ HVERANDRE ER VIKTIG EN **/
+
+#hverandreViktigSecEn{
+    margin-top: 300px;
+}
+
+#hverandreH1{
+    font-size: 12.5em;
+    line-height: 0.8em;
+    opacity: 0;
+}
+
+/** SYTTENDE SECTION: BÅDE PÅ VONDT OG GODT **/
+
+#vondtOgGodtSec{
+
+}
+
+#vondtOgGodtP{
+    position: relative;
+    float: left;
+    font-size: 3.6em;
+}
+
+#jensStoltenbergP{
+    position: relative;
+    margin-top: 150px;
+    font-size: 1.5em;
+    float: right;
+}
+
+/** ATTENDE SECTION: TA VARE PÅ HVERANDRE ER VIKTIG TO **/
+
+#hverandreViktigSecTo{
+    margin-top: 100px;
+}
+
+#viktigH1{
+    margin: 0;
+    line-height: 0.8em;
+    font-size: 12.5em;
+    float: right;
+    opacity: 0;
+}
+
+/** NITTENDE SECTION: TA VARE PÅ HVERANDRE **/
+
+#taVarePaaHverandreSec{
+    margin-top: 170px;
+}
+
+#taVarePaaHverandreP{
+    font-size: 3.7em;
+}
+
+/** TYVENDE SECTION: OSLOVE **/
+
+#osloveSec{
+    margin-top: 230px;
+}
+
+#osloveImg{
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+/** TYVEFØRSTE SECTION: STOLTENBERG **/
+
+#stoltenbergSec{
+    margin-top: 150px;
+}
+
+#blomsterMarkeringerP{
+    font-size: 2em;
+    float: right;
+}
+
+#godtLandP{
+    margin-top: 50px;
+    font-size: 1.7em;
+    float: left;
+}
+
+/** TYVEANDRE SECTION: JOBBE SAMMEN  **/
+
+#jobbeSammenSec{
+    margin-top: 170px;
+    padding-bottom: 400px;
+}
+
+#jobbeSammenP{
+    position: absolute;
+    font-size: 3.7em;   
+    z-index: 10;
+}
+
+#roserAvslutningImg{
+    top: 230px;
+    position: relative;
+    display: block;
+    width: 2300px;
+    left: -1150px;
+}
+
+#tilbakeKnappImg{
+    position: absolute;
+    width: 4%;
+    left: 600px;
+    -webkit-transform: rotate(-90deg);
+    margin-top: 170px;
+ 
+}
+
+
+/** BASIC CSS SETTINGS **/
+
+p {
+    margin: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
